@@ -1,0 +1,10 @@
+.btn-group-vertical{
+	max-width: 100%;
+}
+
+#back-to-top{
+	position: fixed; 
+	z-index: 100; 
+	bottom: 40px; 
+	right: 50px;
+}

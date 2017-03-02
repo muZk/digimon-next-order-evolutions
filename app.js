@@ -33,15 +33,8 @@ $.getJSON("data.json", function(db) {
         }
       }
     },
-    watch: {
-      search: function(){
-        console.log('change')
-      }
-    },
     methods: {
       showInfo: function(selected){
-
-        console.log(selected)
 
         this.selected = selected;
 
