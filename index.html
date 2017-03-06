@@ -6,10 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Digimon Next Order Digivolution Requeriments">
 <link href="style.css" rel="stylesheet">
-<link href="https://bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link href="https://bootswatch.com/readable/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 <body>
-  <div id="app" class="col-md-4 col-md-offset-4">
+  <div id="app" class="col-md-8 col-md-offset-2">
+
+    <p class="text-center">
+    	<img src="images/logo.png"/>
+    </p>
 
     <h1 class="text-center">Digimon World Next Order Evolution Guide</h1>
 
@@ -17,38 +21,71 @@
       Based on <a href="https://docs.google.com/spreadsheets/d/1zRIZWQk7Xqsfo6Ls8y9tY2Oj_tcWIA0WMwFBIrITKRE/edit#gid=1561692800" target="_blank">Digimon World: Next Order Digivolutions Spreadsheet</a> (<a href="https://www.reddit.com/r/digimon/comments/5qwo2n/digimon_world_next_order_digivolutions/" target="_blank">Reddit Post</a>)
     </p>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">Evolution tier</div>
-      <div class="panel-body">
-          <div v-for="evolution in evolutions">
-            <input type="radio" v-bind:id="evolution" v-bind:value="evolution" v-model="pickedEvolution">
-            <label v-bind:for="evolution">{{evolution}}</label>
-            <br>
-          </div>
-      </div>
+    <p class="alert alert-info text-center">
+    	This is a WIP project. If you have any suggestion or found any bug please post in <a href="https://www.reddit.com/r/NextOrder/comments/5x1cbc/digimon_next_order_evolutions/" target="_blank">Reddit</a>.
+    </p>
+
+    <div v-if="selected != null">
+
+    	<button class="btn btn-primary" v-on:click="selected = null">GO Back</button>
+
+    	<hr>
+
+  		<div class="panel panel-default">
+	      <div class="panel-heading">{{ selected.name }} - Evolutions</div>
+	      <div class="panel-body">
+	        <div class="row">
+	        	<div class="col-xs-12 text-center">
+        		    <div class="digi-card" 
+        		    	v-bind:class="{ active: digimon == selected }"
+        		    	v-for="digimon in selectedEvolutions" v-on:click="showInfo(digimon)">
+	            	<div class=digi-card__container>
+			     	 	<img class="digi-card__image" :src="digimon.evolution_image">
+	              		<p class="digi-card__name">{{ digimon.evolution }}</p>
+	            	</div>
+	            </div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+
+	    <hr>
+
+	    <button class="btn btn-primary" v-on:click="selected = null">GO Back</button>
+
     </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">Evolution list</div>
-      <div class="panel-body">
-        <div class="form-group">
-          <label for="search" class="control-label">Search</label>
-          <div class="input-group">
-            <input id="search" type="text" v-model="search" class="form-control"/>
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button" v-on:click="search = '';">Clear</button>
-            </span>
-          </div>
-        </div>
+    <div v-if="selected == null">
 
-        <div class="text-center">
-          <div class="btn-group-vertical">
-            <div class="btn btn-default" v-bind:class="{ active: item == selected }" v-for="item in searchResult" v-on:click="showInfo(item)">
-              {{ item.name }} -> {{ item.evolution }}
-            </div>
-          </div>
-        </div>
-      </div>
+	    <div class="panel panel-default">
+	      <div class="panel-heading">Field guide</div>
+	      <div class="panel-body">
+	        <div class="form-group">
+	          <label for="search" class="control-label">Search</label>
+	          <div class="input-group">
+	            <input id="search" type="text" v-model="search" class="form-control"/>
+	            <span class="input-group-btn">
+	              <button class="btn btn-default" type="button" v-on:click="search = '';">Clear</button>
+	            </span>
+	          </div>
+	        </div>
+
+	        <div class="row">
+	        	<div class="col-xs-12 text-center">
+	        		<div
+	        			class="digi-card" 
+        				v-bind:class="{ active: digimon == selected }"
+        				v-for="digimon in searchResult"
+        				v-on:click="select(digimon)">
+	            		<div class="digi-card__container">
+			     	 		<img class="digi-card__image" :src="digimon.image">
+	              			<p class="digi-card__name">{{ digimon.name }}</p>
+	            		</div>
+	            	</div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
     </div>
 
     <a href="#top" id="back-to-top" class="well well-sm">
@@ -64,10 +101,14 @@
           </div>
           <div class="modal-body">
             <table class="table">
-              <tr v-for="(value, attr) in selected">
-                <th>{{ attr }}</th>
-                <td>{{ value }}</td>
-              </tr>
+    		    <tr>
+            		<th></th>
+            		<td><img class="digi-card__image" :src="evolutionImage"></td>
+            	</tr>
+              	<tr v-for="(value, attr) in evolutionAttrs">
+                	<th>{{ attr }}</th>
+                	<td>{{ value }}</td>
+              	</tr>
             </table>
           </div>
           <div class="modal-footer text-center">
@@ -84,6 +125,7 @@
   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/vue"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/2.3.0/vue-router.common.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
   <script src="app.js"></script>
 </body>

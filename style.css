@@ -8,3 +8,41 @@
 	bottom: 40px; 
 	right: 50px;
 }
+
+.digi-card{
+	display: inline-block;
+	width: 118px;
+	height: 172px;
+	padding: 5px;
+}
+
+.digi-card__container{
+	background-color: #f5f5f5;
+	position: relative;
+}
+
+.digi-card__container:hover{
+	cursor: pointer;
+}
+
+.digi-card__image{
+	height: 108px;
+}
+
+.digi-card__name{
+	height: 48px;
+	position: absolute;
+	top: 108px;
+	background-color: #f5f5f5;
+	width: 100%;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+th{
+	text-transform: capitalize;
+}
+
+img{
+	max-width: 100%
+}

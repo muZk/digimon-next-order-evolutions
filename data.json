@@ -113,7 +113,7 @@
             "key_points": "", 
             "evolution": "Tsumemon", 
             "strength": "", 
-            "name": "Kuramon (Ch. 5 unlock)", 
+            "name": "Kuramon", 
             "stamina": "", 
             "mp": ""
         }, 
@@ -126,7 +126,7 @@
             "key_points": "", 
             "evolution": "Nyaromon", 
             "strength": "", 
-            "name": "YumiBotamon", 
+            "name": "YukimiBotamon", 
             "stamina": "", 
             "mp": ""
         }, 
@@ -1266,9 +1266,9 @@
             "mp": 6000.0
         }, 
         {
-            "hp": "  ", 
+            "hp": 3500.0, 
             "wisdom": "-", 
-            "wight": "", 
+            "wight": "<20", 
             "mistakes": "-", 
             "speed": 450.0, 
             "key_points": 6.0, 
@@ -1612,7 +1612,7 @@
             "key_points": 6.0, 
             "evolution": "WereGarurumon (black)", 
             "strength": "-", 
-            "name": "Garurumon (black)", 
+            "name": "Garurumon (Black)", 
             "stamina": 550.0, 
             "mp": "-"
         }, 
@@ -1625,7 +1625,7 @@
             "key_points": 6.0, 
             "evolution": "Doumon", 
             "strength": 400.0, 
-            "name": "Garurumon (black)", 
+            "name": "Garurumon (Black)", 
             "stamina": "-", 
             "mp": "-"
         }, 
@@ -1638,7 +1638,7 @@
             "key_points": "", 
             "evolution": "Etemon", 
             "strength": 400.0, 
-            "name": "Garurumon (black)", 
+            "name": "Garurumon (Black)", 
             "stamina": "", 
             "mp": ""
         }, 
@@ -1885,7 +1885,7 @@
             "key_points": "", 
             "evolution": "Aeroveedramon", 
             "strength": "", 
-            "name": "Ex-Veemon", 
+            "name": "ExVeemon", 
             "stamina": 700.0, 
             "mp": ""
         }, 
@@ -1898,7 +1898,7 @@
             "key_points": 6.0, 
             "evolution": "MetalTyrannomon", 
             "strength": 3000.0, 
-            "name": "Ex-Veemon", 
+            "name": "BomberNanimon", 
             "stamina": 2600.0, 
             "mp": "-"
         }, 
@@ -1911,7 +1911,7 @@
             "key_points": 6.0, 
             "evolution": "Garudamon", 
             "strength": "-", 
-            "name": "Ex-Veemon", 
+            "name": "BomberNanimon", 
             "stamina": 500.0, 
             "mp": 9500.0
         }, 
@@ -3577,7 +3577,7 @@
             "key_points": 7.0, 
             "evolution": "ChaosGallantmon", 
             "strength": 1400.0, 
-            "name": "WarGrowlmon (Black)", 
+            "name": "BlackWarGrowlmon", 
             "stamina": 1600.0, 
             "mp": 5000.0
         }, 
@@ -3590,7 +3590,7 @@
             "key_points": 8.0, 
             "evolution": "Dynasmon", 
             "strength": 1400.0, 
-            "name": "WarGrowlmon (Black)", 
+            "name": "WereGarurumon", 
             "stamina": 1400.0, 
             "mp": 8000.0
         }, 
@@ -3929,7 +3929,7 @@
             "evolution": "Magnamon", 
             "strength": 1200.0, 
             "name": "Paildramon", 
-            "stamina": 1200.0, 
+            "stamina": 1800.0, 
             "mp": "-"
         }, 
         {
@@ -4383,7 +4383,7 @@
             "key_points": "", 
             "evolution": "Titamon", 
             "strength": "", 
-            "name": "Skullgreymon", 
+            "name": "SkullGreymon", 
             "stamina": "", 
             "mp": ""
         }, 
@@ -5100,7 +5100,7 @@
             "key_points": 5.0, 
             "evolution": "Garurumon", 
             "strength": "-", 
-            "name": "Gabumon (black)", 
+            "name": "Gabumon (Black)", 
             "stamina": 1500.0, 
             "mp": "-"
         }, 
@@ -5113,7 +5113,7 @@
             "key_points": 4.0, 
             "evolution": "Saberdramon", 
             "strength": 75.0, 
-            "name": "Gabumon (black)", 
+            "name": "Gabumon (Black)", 
             "stamina": "-", 
             "mp": 1200.0
         }, 
@@ -5126,7 +5126,7 @@
             "key_points": 4.0, 
             "evolution": "Garurumon (black)", 
             "strength": "-", 
-            "name": "Gabumon (black)", 
+            "name": "Gabumon (Black)", 
             "stamina": "-", 
             "mp": ""
         }, 
@@ -5139,7 +5139,7 @@
             "key_points": "", 
             "evolution": "Stingmon", 
             "strength": "-", 
-            "name": "Gabumon (black)", 
+            "name": "Gabumon (Black)", 
             "stamina": 1500.0, 
             "mp": ""
         }, 
@@ -5308,7 +5308,7 @@
             "key_points": 4.0, 
             "evolution": "Greymon (blue)", 
             "strength": 500.0, 
-            "name": "Agumon (black)", 
+            "name": "Agumon (Black)", 
             "stamina": "-", 
             "mp": "-"
         }, 
@@ -5321,7 +5321,7 @@
             "key_points": 5.0, 
             "evolution": "Growlmon", 
             "strength": 1640.0, 
-            "name": "Agumon (black)", 
+            "name": "Agumon (Black)", 
             "stamina": 1600.0, 
             "mp": "-"
         }, 
@@ -5334,7 +5334,7 @@
             "key_points": "", 
             "evolution": "Saberdramon", 
             "strength": "", 
-            "name": "Agumon (black)", 
+            "name": "Agumon (Black)", 
             "stamina": "", 
             "mp": ""
         }, 
@@ -5347,7 +5347,7 @@
             "key_points": "", 
             "evolution": "Fugamon", 
             "strength": "", 
-            "name": "Agumon (black)", 
+            "name": "Agumon (Black)", 
             "stamina": "", 
             "mp": ""
         }, 
