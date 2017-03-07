@@ -1,594 +1,582 @@
 [
     {
         "image": "images/Botamon.jpg", 
-        "name": "Botamon"
+        "Name": "Botamon"
     }, 
     {
         "image": "images/Punimon.jpg", 
-        "name": "Punimon"
+        "Name": "Punimon"
     }, 
     {
         "image": "images/Poyomon.jpg", 
-        "name": "Poyomon"
+        "Name": "Poyomon"
     }, 
     {
         "image": "images/Pabumon.jpg", 
-        "name": "Pabumon"
+        "Name": "Pabumon"
     }, 
     {
         "image": "images/Yuramon.jpg", 
-        "name": "Yuramon"
+        "Name": "Yuramon"
     }, 
     {
         "image": "images/Jyarimon.jpg", 
-        "name": "Jyarimon"
+        "Name": "Jyarimon"
     }, 
     {
         "image": "images/Zerimon.jpg", 
-        "name": "Zerimon"
+        "Name": "Zerimon"
     }, 
     {
         "image": "images/Conomon.jpg", 
-        "name": "Conomon"
+        "Name": "Conomon"
     }, 
     {
         "image": "images/Kuramon.jpg", 
-        "name": "Kuramon"
+        "Name": "Kuramon"
     }, 
     {
         "image": "images/YukimiBotamon.jpg", 
-        "name": "YukimiBotamon"
+        "Name": "YukimiBotamon"
     }, 
     {
         "image": "images/Pichimon.jpg", 
-        "name": "Pichimon"
-    }, 
-    {
-        "image": "images/Koromon.jpg", 
-        "name": "Koromon"
-    }, 
-    {
-        "image": "images/Tsunomon.jpg", 
-        "name": "Tsunomon"
-    }, 
-    {
-        "image": "images/Tokomon.jpg", 
-        "name": "Tokomon"
-    }, 
-    {
-        "image": "images/Motimon.jpg", 
-        "name": "Motimon"
-    }, 
-    {
-        "image": "images/Tanemon.jpg", 
-        "name": "Tanemon"
-    }, 
-    {
-        "image": "images/Gigimon.jpg", 
-        "name": "Gigimon"
-    }, 
-    {
-        "image": "images/Gummymon.jpg", 
-        "name": "Gummymon"
-    }, 
-    {
-        "image": "images/Kokomon.jpg", 
-        "name": "Kokomon"
-    }, 
-    {
-        "image": "images/Tsumemon.jpg", 
-        "name": "Tsumemon"
-    }, 
-    {
-        "image": "images/Nyaromon.jpg", 
-        "name": "Nyaromon"
-    }, 
-    {
-        "image": "images/Bukamon.jpg", 
-        "name": "Bukamon"
-    }, 
-    {
-        "image": "images/Shoutmon.jpg", 
-        "name": "Shoutmon"
-    }, 
-    {
-        "image": "images/Gomamon.jpg", 
-        "name": "Gomamon"
-    }, 
-    {
-        "image": "images/Guilmon.jpg", 
-        "name": "Guilmon"
-    }, 
-    {
-        "image": "images/Lopmon.jpg", 
-        "name": "Lopmon"
-    }, 
-    {
-        "image": "images/Terriermon.jpg", 
-        "name": "Terriermon"
-    }, 
-    {
-        "image": "images/Gabumon (Black).jpg", 
-        "name": "Gabumon (Black)"
-    }, 
-    {
-        "image": "images/ClearAgumon.jpg", 
-        "name": "ClearAgumon"
-    }, 
-    {
-        "image": "images/ToyAgumon.jpg", 
-        "name": "ToyAgumon"
-    }, 
-    {
-        "image": "images/ToyAgumon (Black).jpg", 
-        "name": "ToyAgumon (Black)"
-    }, 
-    {
-        "image": "images/Agumon (Black).jpg", 
-        "name": "Agumon (Black)"
-    }, 
-    {
-        "image": "images/Gaomon.jpg", 
-        "name": "Gaomon"
-    }, 
-    {
-        "image": "images/Hagurumon.jpg", 
-        "name": "Hagurumon"
-    }, 
-    {
-        "image": "images/Solarmon.jpg", 
-        "name": "Solarmon"
-    }, 
-    {
-        "image": "images/Patamon.jpg", 
-        "name": "Patamon"
-    }, 
-    {
-        "image": "images/Veemon.jpg", 
-        "name": "Veemon"
-    }, 
-    {
-        "image": "images/Goblimon.jpg", 
-        "name": "Goblimon"
-    }, 
-    {
-        "image": "images/Hackmon.jpg", 
-        "name": "Hackmon"
-    }, 
-    {
-        "image": "images/Psychemon.jpg", 
-        "name": "Psychemon"
-    }, 
-    {
-        "image": "images/Aruraumon.jpg", 
-        "name": "Aruraumon"
-    }, 
-    {
-        "image": "images/Shamamon.jpg", 
-        "name": "Shamamon"
-    }, 
-    {
-        "image": "images/DemiDevimon.jpg", 
-        "name": "DemiDevimon"
-    }, 
-    {
-        "image": "images/Gotsumon.jpg", 
-        "name": "Gotsumon"
-    }, 
-    {
-        "image": "images/Wormmon.jpg", 
-        "name": "Wormmon"
-    }, 
-    {
-        "image": "images/SnowAgumon.jpg", 
-        "name": "SnowAgumon"
-    }, 
-    {
-        "image": "images/Palmon.jpg", 
-        "name": "Palmon"
-    }, 
-    {
-        "image": "images/Tsukaimon.jpg", 
-        "name": "Tsukaimon"
-    }, 
-    {
-        "image": "images/Biyomon.jpg", 
-        "name": "Biyomon"
-    }, 
-    {
-        "image": "images/Tentomon.jpg", 
-        "name": "Tentomon"
-    }, 
-    {
-        "image": "images/Gumdramon.jpg", 
-        "name": "Gumdramon"
-    }, 
-    {
-        "image": "images/Renamon.jpg", 
-        "name": "Renamon"
+        "Name": "Pichimon"
     }, 
     {
         "image": "images/Agumon.jpg", 
-        "name": "Agumon"
+        "Name": "Agumon"
     }, 
     {
         "image": "images/Gabumon.jpg", 
-        "name": "Gabumon"
+        "Name": "Gabumon"
+    }, 
+    {
+        "image": "images/Biyomon.jpg", 
+        "Name": "Biyomon"
+    }, 
+    {
+        "image": "images/Patamon.jpg", 
+        "Name": "Patamon"
+    }, 
+    {
+        "image": "images/Tentomon.jpg", 
+        "Name": "Tentomon"
+    }, 
+    {
+        "image": "images/Gomamon.jpg", 
+        "Name": "Gomamon"
+    }, 
+    {
+        "image": "images/Palmon.jpg", 
+        "Name": "Palmon"
     }, 
     {
         "image": "images/Salamon.jpg", 
-        "name": "Salamon"
+        "Name": "Salamon"
+    }, 
+    {
+        "image": "images/Veemon.jpg", 
+        "Name": "Veemon"
+    }, 
+    {
+        "image": "images/Wormmon.jpg", 
+        "Name": "Wormmon"
+    }, 
+    {
+        "image": "images/Guilmon.jpg", 
+        "Name": "Guilmon"
+    }, 
+    {
+        "image": "images/Terriermon.jpg", 
+        "Name": "Terriermon"
+    }, 
+    {
+        "image": "images/Lopmon.jpg", 
+        "Name": "Lopmon"
+    }, 
+    {
+        "image": "images/Renamon.jpg", 
+        "Name": "Renamon"
+    }, 
+    {
+        "image": "images/Gaomon.jpg", 
+        "Name": "Gaomon"
+    }, 
+    {
+        "image": "images/Hagurumon.jpg", 
+        "Name": "Hagurumon"
+    }, 
+    {
+        "image": "images/Gotsumon.jpg", 
+        "Name": "Gotsumon"
+    }, 
+    {
+        "image": "images/Goblimon.jpg", 
+        "Name": "Goblimon"
+    }, 
+    {
+        "image": "images/ToyAgumon.jpg", 
+        "Name": "ToyAgumon"
+    }, 
+    {
+        "image": "images/DemiDevimon.jpg", 
+        "Name": "DemiDevimon"
     }, 
     {
         "image": "images/Lucemon.jpg", 
-        "name": "Lucemon"
+        "Name": "Lucemon"
     }, 
     {
-        "image": "images/Keramon.jpg", 
-        "name": "Keramon"
+        "image": "images/Hackmon.jpg", 
+        "Name": "Hackmon"
+    }, 
+    {
+        "image": "images/Agumon (Black).jpg", 
+        "Name": "Agumon (Black)"
+    }, 
+    {
+        "image": "images/SnowAgumon.jpg", 
+        "Name": "SnowAgumon"
+    }, 
+    {
+        "image": "images/Gabumon (Black).jpg", 
+        "Name": "Gabumon (Black)"
+    }, 
+    {
+        "image": "images/Psychemon.jpg", 
+        "Name": "Psychemon"
+    }, 
+    {
+        "image": "images/Tsukaimon.jpg", 
+        "Name": "Tsukaimon"
+    }, 
+    {
+        "image": "images/Aruraumon.jpg", 
+        "Name": "Aruraumon"
+    }, 
+    {
+        "image": "images/ToyAgumon (Black).jpg", 
+        "Name": "ToyAgumon (Black)"
+    }, 
+    {
+        "image": "images/ClearAgumon.jpg", 
+        "Name": "ClearAgumon"
+    }, 
+    {
+        "image": "images/Solarmon.jpg", 
+        "Name": "Solarmon"
     }, 
     {
         "image": "images/SnowGoblimon.jpg", 
-        "name": "SnowGoblimon"
+        "Name": "SnowGoblimon"
     }, 
     {
-        "image": "images/Ikkakumon.jpg", 
-        "name": "Ikkakumon"
+        "image": "images/Shamamon.jpg", 
+        "Name": "Shamamon"
     }, 
     {
-        "image": "images/Growlmon.jpg", 
-        "name": "Growlmon"
+        "image": "images/Keramon.jpg", 
+        "Name": "Keramon"
     }, 
     {
-        "image": "images/Gururumon.jpg", 
-        "name": "Gururumon"
+        "image": "images/Gumdramon.jpg", 
+        "Name": "Gumdramon"
     }, 
     {
-        "image": "images/Wizardmon.jpg", 
-        "name": "Wizardmon"
-    }, 
-    {
-        "image": "images/Saberdramon.jpg", 
-        "name": "Saberdramon"
-    }, 
-    {
-        "image": "images/GaoGamon.jpg", 
-        "name": "GaoGamon"
-    }, 
-    {
-        "image": "images/BomberNanimon.jpg", 
-        "name": "BomberNanimon"
-    }, 
-    {
-        "image": "images/Meramon.jpg", 
-        "name": "Meramon"
-    }, 
-    {
-        "image": "images/Kyubimon.jpg", 
-        "name": "Kyubimon"
-    }, 
-    {
-        "image": "images/Birdramon.jpg", 
-        "name": "Birdramon"
-    }, 
-    {
-        "image": "images/Togemon.jpg", 
-        "name": "Togemon"
-    }, 
-    {
-        "image": "images/Piddomon.jpg", 
-        "name": "Piddomon"
-    }, 
-    {
-        "image": "images/Fugamon.jpg", 
-        "name": "Fugamon"
-    }, 
-    {
-        "image": "images/Tyrannomon.jpg", 
-        "name": "Tyrannomon"
-    }, 
-    {
-        "image": "images/Kabuterimon.jpg", 
-        "name": "Kabuterimon"
-    }, 
-    {
-        "image": "images/Hyogamon.jpg", 
-        "name": "Hyogamon"
-    }, 
-    {
-        "image": "images/Veedramon.jpg", 
-        "name": "Veedramon"
-    }, 
-    {
-        "image": "images/Turuiemon.jpg", 
-        "name": "Turuiemon"
-    }, 
-    {
-        "image": "images/Gargomon.jpg", 
-        "name": "Gargomon"
-    }, 
-    {
-        "image": "images/Garurumon (Black).jpg", 
-        "name": "Garurumon (Black)"
-    }, 
-    {
-        "image": "images/Angemon.jpg", 
-        "name": "Angemon"
-    }, 
-    {
-        "image": "images/Gatomon.jpg", 
-        "name": "Gatomon"
-    }, 
-    {
-        "image": "images/Meicoomon.jpg", 
-        "name": "Meicoomon"
-    }, 
-    {
-        "image": "images/Devimon.jpg", 
-        "name": "Devimon"
-    }, 
-    {
-        "image": "images/Seadramon.jpg", 
-        "name": "Seadramon"
-    }, 
-    {
-        "image": "images/ExVeemon.jpg", 
-        "name": "ExVeemon"
+        "image": "images/Shoutmon.jpg", 
+        "Name": "Shoutmon"
     }, 
     {
         "image": "images/Greymon.jpg", 
-        "name": "Greymon"
-    }, 
-    {
-        "image": "images/RedVeedramon.jpg", 
-        "name": "RedVeedramon"
-    }, 
-    {
-        "image": "images/Leomon.jpg", 
-        "name": "Leomon"
-    }, 
-    {
-        "image": "images/Stingmon.jpg", 
-        "name": "Stingmon"
-    }, 
-    {
-        "image": "images/Sorcermon.jpg", 
-        "name": "Sorcermon"
-    }, 
-    {
-        "image": "images/Ogremon.jpg", 
-        "name": "Ogremon"
-    }, 
-    {
-        "image": "images/BlackGatomon.jpg", 
-        "name": "BlackGatomon"
-    }, 
-    {
-        "image": "images/Growlmon(Orange).jpg", 
-        "name": "Growlmon(Orange)"
-    }, 
-    {
-        "image": "images/Greymon (Blue).jpg", 
-        "name": "Greymon (Blue)"
-    }, 
-    {
-        "image": "images/IceDevimon.jpg", 
-        "name": "IceDevimon"
-    }, 
-    {
-        "image": "images/Vegiemon.jpg", 
-        "name": "Vegiemon"
-    }, 
-    {
-        "image": "images/Icemon.jpg", 
-        "name": "Icemon"
-    }, 
-    {
-        "image": "images/RedVegiemon.jpg", 
-        "name": "RedVegiemon"
-    }, 
-    {
-        "image": "images/Geremon.jpg", 
-        "name": "Geremon"
-    }, 
-    {
-        "image": "images/Numemon.jpg", 
-        "name": "Numemon"
+        "Name": "Greymon"
     }, 
     {
         "image": "images/Garurumon.jpg", 
-        "name": "Garurumon"
+        "Name": "Garurumon"
     }, 
     {
-        "image": "images/Woodmon.jpg", 
-        "name": "Woodmon"
+        "image": "images/Birdramon.jpg", 
+        "Name": "Birdramon"
+    }, 
+    {
+        "image": "images/Angemon.jpg", 
+        "Name": "Angemon"
+    }, 
+    {
+        "image": "images/Kabuterimon.jpg", 
+        "Name": "Kabuterimon"
+    }, 
+    {
+        "image": "images/Ikkakumon.jpg", 
+        "Name": "Ikkakumon"
+    }, 
+    {
+        "image": "images/Togemon.jpg", 
+        "Name": "Togemon"
+    }, 
+    {
+        "image": "images/Gatomon.jpg", 
+        "Name": "Gatomon"
+    }, 
+    {
+        "image": "images/ExVeemon.jpg", 
+        "Name": "ExVeemon"
+    }, 
+    {
+        "image": "images/Stingmon.jpg", 
+        "Name": "Stingmon"
+    }, 
+    {
+        "image": "images/Growlmon.jpg", 
+        "Name": "Growlmon"
+    }, 
+    {
+        "image": "images/Gargomon.jpg", 
+        "Name": "Gargomon"
+    }, 
+    {
+        "image": "images/Turuiemon.jpg", 
+        "Name": "Turuiemon"
+    }, 
+    {
+        "image": "images/Kyubimon.jpg", 
+        "Name": "Kyubimon"
+    }, 
+    {
+        "image": "images/GaoGamon.jpg", 
+        "Name": "GaoGamon"
+    }, 
+    {
+        "image": "images/Wizardmon.jpg", 
+        "Name": "Wizardmon"
+    }, 
+    {
+        "image": "images/Devimon.jpg", 
+        "Name": "Devimon"
+    }, 
+    {
+        "image": "images/Veedramon.jpg", 
+        "Name": "Veedramon"
+    }, 
+    {
+        "image": "images/Tyrannomon.jpg", 
+        "Name": "Tyrannomon"
+    }, 
+    {
+        "image": "images/Ogremon.jpg", 
+        "Name": "Ogremon"
+    }, 
+    {
+        "image": "images/Leomon.jpg", 
+        "Name": "Leomon"
+    }, 
+    {
+        "image": "images/Meramon.jpg", 
+        "Name": "Meramon"
+    }, 
+    {
+        "image": "images/Vegiemon.jpg", 
+        "Name": "Vegiemon"
+    }, 
+    {
+        "image": "images/Nanimon.jpg", 
+        "Name": "Nanimon"
+    }, 
+    {
+        "image": "images/Seadramon.jpg", 
+        "Name": "Seadramon"
     }, 
     {
         "image": "images/Kuwagamon.jpg", 
-        "name": "Kuwagamon"
+        "Name": "Kuwagamon"
     }, 
     {
         "image": "images/Guardromon.jpg", 
-        "name": "Guardromon"
+        "Name": "Guardromon"
+    }, 
+    {
+        "image": "images/Woodmon.jpg", 
+        "Name": "Woodmon"
+    }, 
+    {
+        "image": "images/BomberNanimon.jpg", 
+        "Name": "BomberNanimon"
+    }, 
+    {
+        "image": "images/Icemon.jpg", 
+        "Name": "Icemon"
+    }, 
+    {
+        "image": "images/Hyogamon.jpg", 
+        "Name": "Hyogamon"
+    }, 
+    {
+        "image": "images/Piddomon.jpg", 
+        "Name": "Piddomon"
+    }, 
+    {
+        "image": "images/Kyubimon (Silver).jpg", 
+        "Name": "Kyubimon (Silver)"
+    }, 
+    {
+        "image": "images/Gururumon.jpg", 
+        "Name": "Gururumon"
+    }, 
+    {
+        "image": "images/Saberdramon.jpg", 
+        "Name": "Saberdramon"
+    }, 
+    {
+        "image": "images/BlackGatomon.jpg", 
+        "Name": "BlackGatomon"
+    }, 
+    {
+        "image": "images/Fugamon.jpg", 
+        "Name": "Fugamon"
     }, 
     {
         "image": "images/Guardromon (Gold).jpg", 
-        "name": "Guardromon (Gold)"
-    }, 
-    {
-        "image": "images/Chrysalimon.jpg", 
-        "name": "Chrysalimon"
+        "Name": "Guardromon (Gold)"
     }, 
     {
         "image": "images/Youkomon.jpg", 
-        "name": "Youkomon"
+        "Name": "Youkomon"
     }, 
     {
-        "image": "images/LadyDevimon.jpg", 
-        "name": "LadyDevimon"
+        "image": "images/RedVeedramon.jpg", 
+        "Name": "RedVeedramon"
     }, 
     {
-        "image": "images/Antylamon.jpg", 
-        "name": "Antylamon"
+        "image": "images/GoldVeedramon.jpg", 
+        "Name": "GoldVeedramon"
     }, 
     {
-        "image": "images/Angewomon.jpg", 
-        "name": "Angewomon"
+        "image": "images/Growlmon(Orange).jpg", 
+        "Name": "Growlmon(Orange)"
     }, 
     {
-        "image": "images/Lucemon FM.jpg", 
-        "name": "Lucemon FM"
+        "image": "images/Greymon (Blue).jpg", 
+        "Name": "Greymon (Blue)"
     }, 
     {
-        "image": "images/AeroVeedramon.jpg", 
-        "name": "AeroVeedramon"
+        "image": "images/Garurumon (Black).jpg", 
+        "Name": "Garurumon (Black)"
     }, 
     {
-        "image": "images/Meteormon.jpg", 
-        "name": "Meteormon"
+        "image": "images/RedVegiemon.jpg", 
+        "Name": "RedVegiemon"
     }, 
     {
-        "image": "images/WaruSeadramon.jpg", 
-        "name": "WaruSeadramon"
+        "image": "images/IceDevimon.jpg", 
+        "Name": "IceDevimon"
     }, 
     {
-        "image": "images/Megadramon.jpg", 
-        "name": "Megadramon"
+        "image": "images/Sorcermon.jpg", 
+        "Name": "Sorcermon"
     }, 
     {
-        "image": "images/WarGrowlmon(Orange).jpg", 
-        "name": "WarGrowlmon(Orange)"
+        "image": "images/Chrysalimon.jpg", 
+        "Name": "Chrysalimon"
+    }, 
+    {
+        "image": "images/Numemon.jpg", 
+        "Name": "Numemon"
+    }, 
+    {
+        "image": "images/Geremon.jpg", 
+        "Name": "Geremon"
+    }, 
+    {
+        "image": "images/Sukamon.jpg", 
+        "Name": "Sukamon"
+    }, 
+    {
+        "image": "images/PlatinumSukamon.jpg", 
+        "Name": "PlatinumSukamon"
+    }, 
+    {
+        "image": "images/Meicoomon.jpg", 
+        "Name": "Meicoomon"
     }, 
     {
         "image": "images/MetalGreymon.jpg", 
-        "name": "MetalGreymon"
-    }, 
-    {
-        "image": "images/Datamon.jpg", 
-        "name": "Datamon"
-    }, 
-    {
-        "image": "images/Gigadramon.jpg", 
-        "name": "Gigadramon"
-    }, 
-    {
-        "image": "images/Wargrowlmon.jpg", 
-        "name": "Wargrowlmon"
-    }, 
-    {
-        "image": "images/Garudamon.jpg", 
-        "name": "Garudamon"
-    }, 
-    {
-        "image": "images/MagnaAngemon.jpg", 
-        "name": "MagnaAngemon"
-    }, 
-    {
-        "image": "images/Okuwamon.jpg", 
-        "name": "Okuwamon"
+        "Name": "MetalGreymon"
     }, 
     {
         "image": "images/WereGarurumon.jpg", 
-        "name": "WereGarurumon"
+        "Name": "WereGarurumon"
     }, 
     {
-        "image": "images/BlackWarGrowlmon.jpg", 
-        "name": "BlackWarGrowlmon"
+        "image": "images/Garudamon.jpg", 
+        "Name": "Garudamon"
     }, 
     {
-        "image": "images/MetalMamemon.jpg", 
-        "name": "MetalMamemon"
-    }, 
-    {
-        "image": "images/Zudomon.jpg", 
-        "name": "Zudomon"
-    }, 
-    {
-        "image": "images/Doumon.jpg", 
-        "name": "Doumon"
-    }, 
-    {
-        "image": "images/WereGarurumon (Black).jpg", 
-        "name": "WereGarurumon (Black)"
+        "image": "images/MagnaAngemon.jpg", 
+        "Name": "MagnaAngemon"
     }, 
     {
         "image": "images/MegaKabuterimon.jpg", 
-        "name": "MegaKabuterimon"
+        "Name": "MegaKabuterimon"
     }, 
     {
-        "image": "images/GrapLeomon.jpg", 
-        "name": "GrapLeomon"
-    }, 
-    {
-        "image": "images/Rapidmon.jpg", 
-        "name": "Rapidmon"
-    }, 
-    {
-        "image": "images/MetalGreymon (Blue).jpg", 
-        "name": "MetalGreymon (Blue)"
-    }, 
-    {
-        "image": "images/Paildramon.jpg", 
-        "name": "Paildramon"
-    }, 
-    {
-        "image": "images/Taomon.jpg", 
-        "name": "Taomon"
-    }, 
-    {
-        "image": "images/MachGaogamon.jpg", 
-        "name": "MachGaogamon"
-    }, 
-    {
-        "image": "images/Myotismon.jpg", 
-        "name": "Myotismon"
-    }, 
-    {
-        "image": "images/MegaSeadramon.jpg", 
-        "name": "MegaSeadramon"
+        "image": "images/Zudomon.jpg", 
+        "Name": "Zudomon"
     }, 
     {
         "image": "images/Lillymon.jpg", 
-        "name": "Lillymon"
+        "Name": "Lillymon"
     }, 
     {
-        "image": "images/SkullGreymon.jpg", 
-        "name": "SkullGreymon"
+        "image": "images/Angewomon.jpg", 
+        "Name": "Angewomon"
     }, 
     {
-        "image": "images/Rapidmon (Gold).jpg", 
-        "name": "Rapidmon (Gold)"
+        "image": "images/Paildramon.jpg", 
+        "Name": "Paildramon"
     }, 
     {
-        "image": "images/Agunimon.jpg", 
-        "name": "Agunimon"
+        "image": "images/Wargrowlmon.jpg", 
+        "Name": "Wargrowlmon"
     }, 
     {
-        "image": "images/Taomon (Silver).jpg", 
-        "name": "Taomon (Silver)"
+        "image": "images/Rapidmon.jpg", 
+        "Name": "Rapidmon"
     }, 
     {
-        "image": "images/Maycrackmon VM.jpg", 
-        "name": "Maycrackmon VM"
+        "image": "images/Antylamon.jpg", 
+        "Name": "Antylamon"
     }, 
     {
-        "image": "images/Infermon.jpg", 
-        "name": "Infermon"
+        "image": "images/Taomon.jpg", 
+        "Name": "Taomon"
     }, 
     {
-        "image": "images/Monzaemon.jpg", 
-        "name": "Monzaemon"
+        "image": "images/MachGaogamon.jpg", 
+        "Name": "MachGaogamon"
     }, 
     {
-        "image": "images/BlueMeramon.jpg", 
-        "name": "BlueMeramon"
+        "image": "images/AeroVeedramon.jpg", 
+        "Name": "AeroVeedramon"
     }, 
     {
-        "image": "images/MegaKabuterimon (Blue).jpg", 
-        "name": "MegaKabuterimon (Blue)"
+        "image": "images/Myotismon.jpg", 
+        "Name": "Myotismon"
+    }, 
+    {
+        "image": "images/LadyDevimon.jpg", 
+        "Name": "LadyDevimon"
     }, 
     {
         "image": "images/Mamemon.jpg", 
-        "name": "Mamemon"
+        "Name": "Mamemon"
+    }, 
+    {
+        "image": "images/MetalMamemon.jpg", 
+        "Name": "MetalMamemon"
+    }, 
+    {
+        "image": "images/Lucemon FM.jpg", 
+        "Name": "Lucemon FM"
+    }, 
+    {
+        "image": "images/MetalTyranomon.jpg", 
+        "Name": "MetalTyranomon"
+    }, 
+    {
+        "image": "images/SkullGreymon.jpg", 
+        "Name": "SkullGreymon"
+    }, 
+    {
+        "image": "images/Gigadramon.jpg", 
+        "Name": "Gigadramon"
+    }, 
+    {
+        "image": "images/Megadramon.jpg", 
+        "Name": "Megadramon"
+    }, 
+    {
+        "image": "images/IceLeomon.jpg", 
+        "Name": "IceLeomon"
+    }, 
+    {
+        "image": "images/GrapLeomon.jpg", 
+        "Name": "GrapLeomon"
+    }, 
+    {
+        "image": "images/BlueMeramon.jpg", 
+        "Name": "BlueMeramon"
+    }, 
+    {
+        "image": "images/MegaSeadramon.jpg", 
+        "Name": "MegaSeadramon"
+    }, 
+    {
+        "image": "images/Okuwamon.jpg", 
+        "Name": "Okuwamon"
+    }, 
+    {
+        "image": "images/Datamon.jpg", 
+        "Name": "Datamon"
+    }, 
+    {
+        "image": "images/Meteormon.jpg", 
+        "Name": "Meteormon"
+    }, 
+    {
+        "image": "images/MetalGreymon (Blue).jpg", 
+        "Name": "MetalGreymon (Blue)"
+    }, 
+    {
+        "image": "images/WereGarurumon (Black).jpg", 
+        "Name": "WereGarurumon (Black)"
+    }, 
+    {
+        "image": "images/MegaKabuterimon (Blue).jpg", 
+        "Name": "MegaKabuterimon (Blue)"
+    }, 
+    {
+        "image": "images/WarGrowlmon(Orange).jpg", 
+        "Name": "WarGrowlmon(Orange)"
+    }, 
+    {
+        "image": "images/BlackWarGrowlmon.jpg", 
+        "Name": "BlackWarGrowlmon"
+    }, 
+    {
+        "image": "images/Rapidmon (Gold).jpg", 
+        "Name": "Rapidmon (Gold)"
+    }, 
+    {
+        "image": "images/Taomon (Silver).jpg", 
+        "Name": "Taomon (Silver)"
+    }, 
+    {
+        "image": "images/Doumon.jpg", 
+        "Name": "Doumon"
+    }, 
+    {
+        "image": "images/WaruSeadramon.jpg", 
+        "Name": "WaruSeadramon"
+    }, 
+    {
+        "image": "images/Infermon.jpg", 
+        "Name": "Infermon"
+    }, 
+    {
+        "image": "images/Etemon.jpg", 
+        "Name": "Etemon"
+    }, 
+    {
+        "image": "images/Monzaemon.jpg", 
+        "Name": "Monzaemon"
+    }, 
+    {
+        "image": "images/Maycrackmon VM.jpg", 
+        "Name": "Maycrackmon VM"
+    }, 
+    {
+        "image": "images/Agunimon.jpg", 
+        "Name": "Agunimon"
     }
 ]

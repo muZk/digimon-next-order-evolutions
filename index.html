@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Digimon Next Order Evolutions</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Digimon Next Order Digivolution Requeriments">
+<meta name="description" content="Digimon Next Order Digivolution List and Requirements">
 <link href="style.css" rel="stylesheet">
 <link href="https://bootswatch.com/readable/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
@@ -12,17 +12,13 @@
   <div id="app" class="col-md-8 col-md-offset-2">
 
     <p class="text-center">
-    	<img src="images/logo.png"/>
+    	<img src="images/logo.png" alt="Logo"/>
     </p>
 
     <h1 class="text-center">Digimon World Next Order Evolution Guide</h1>
 
-    <p class="text-center">
-      Based on <a href="https://docs.google.com/spreadsheets/d/1zRIZWQk7Xqsfo6Ls8y9tY2Oj_tcWIA0WMwFBIrITKRE/edit#gid=1561692800" target="_blank">Digimon World: Next Order Digivolutions Spreadsheet</a> (<a href="https://www.reddit.com/r/digimon/comments/5qwo2n/digimon_world_next_order_digivolutions/" target="_blank">Reddit Post</a>)
-    </p>
-
     <p class="alert alert-info text-center">
-    	This is a WIP project. If you have any suggestion or found any bug please post in <a href="https://www.reddit.com/r/NextOrder/comments/5x1cbc/digimon_next_order_evolutions/" target="_blank">Reddit</a>.
+    	This is a WIP project. If you have any suggestion or found any bug please post in <a href="https://www.reddit.com/r/NextOrder/comments/5x1cbc/digimon_next_order_evolutions/" target="_blank">Reddit</a>. See bellow for references.
     </p>
 
     <div v-if="selected != null">
@@ -32,7 +28,7 @@
     	<hr>
 
   		<div class="panel panel-default">
-	      <div class="panel-heading">{{ selected.name }} - Evolutions</div>
+	      <div class="panel-heading">{{ selected.Name }} - Evolutions</div>
 	      <div class="panel-body">
 	        <div class="row">
 	        	<div class="col-xs-12 text-center">
@@ -40,8 +36,8 @@
         		    	v-bind:class="{ active: digimon == selected }"
         		    	v-for="digimon in selectedEvolutions" v-on:click="showInfo(digimon)">
 	            	<div class=digi-card__container>
-			     	 	<img class="digi-card__image" :src="digimon.evolution_image">
-	              		<p class="digi-card__name">{{ digimon.evolution }}</p>
+			     	 	<img class="digi-card__image" :src="digimon.evolution_image" :alt="digimon.Name">
+	              		<p class="digi-card__name">{{ digimon.Evolution }}</p>
 	            	</div>
 	            </div>
 	        	</div>
@@ -78,8 +74,8 @@
         				v-for="digimon in searchResult"
         				v-on:click="select(digimon)">
 	            		<div class="digi-card__container">
-			     	 		<img class="digi-card__image" :src="digimon.image">
-	              			<p class="digi-card__name">{{ digimon.name }}</p>
+			     	 		<img class="digi-card__image" :src="digimon.image" :alt="digimon.Name">
+	              			<p class="digi-card__name">{{ digimon.Name }}</p>
 	            		</div>
 	            	</div>
 	        	</div>
@@ -103,7 +99,7 @@
             <table class="table">
     		    <tr>
             		<th></th>
-            		<td><img class="digi-card__image" :src="evolutionImage"></td>
+            		<td><img class="digi-card__image" :src="evolutionImage" :alt="evolutionImage"></td>
             	</tr>
               	<tr v-for="(value, attr) in evolutionAttrs">
                 	<th>{{ attr }}</th>
@@ -117,6 +113,27 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+  </div>
+
+  <div class="col-md-8 col-md-offset-2">
+
+	<div class="panel panel-default">
+      <div class="panel-heading">References</div>
+      <div class="panel-body">
+        <div class="row">
+        	<div class="col-xs-12">
+			  	<ul>
+			  	  	<li>Most values were taken from <a href="https://docs.google.com/spreadsheets/d/1zRIZWQk7Xqsfo6Ls8y9tY2Oj_tcWIA0WMwFBIrITKRE/edit#gid=1561692800" target="_blank">"Digimon World: Next Order Digivolutions Spreadsheet"</a> (<a href="https://www.reddit.com/r/digimon/comments/5qwo2n/digimon_world_next_order_digivolutions/" target="_blank">Reddit Post</a>)</li>
+			  	  	<li>Images by <a href="https://twitter.com/Camzillasmom">@Camzillasmom</a> (taken from his <a href="http://camzillasmom.com/2017/digimonworldnextorder_2017_fieldguide_alldigimons.html">"Digimon Next Order | Field Guide: All Digimons"</a>)</li>
+			  	</ul>
+            </div>
+        	</div>
+        </div>
+      </div>
+    </div>
+
+
+
   </div>
 
   <script

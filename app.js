@@ -9,8 +9,8 @@ $.getJSON("data.json", function(db) {
 
     _.each(evolutions, function(evolution){
       _.each(db[evolution], function(digimon){
-        digimon['image_url'] = 'images/' + digimon.name + '.jpg';
-        digimon['evolution_image'] = 'images/' + digimon.evolution + '.jpg';
+        digimon['image_url'] = 'images/' + digimon.Name + '.jpg';
+        digimon['evolution_image'] = 'images/' + digimon.Evolution + '.jpg';
         digimon['tier'] = evolution;
         list.push(digimon);  
       })
@@ -22,7 +22,6 @@ $.getJSON("data.json", function(db) {
       el: '#app',
       data: {
         evolutions: Object.keys(db),
-        pickedEvolution: 'In-Training I',
         search: '',
         list: field,
         selected: null, // Used to check evolutions
@@ -32,12 +31,12 @@ $.getJSON("data.json", function(db) {
       computed: {
         searchResult: function () {
           return this.list.filter(function (digimon) {
-            return digimon.name.toLowerCase().indexOf(this.search.toLowerCase()) >= 0
+            return digimon.Name.toLowerCase().indexOf(this.search.toLowerCase()) >= 0
           }.bind(this))
         },
         modalTitle: function(){
           if(this.selected && this.evolution){
-            return this.selected.name + ' -> ' + this.evolution.evolution + ' Requeriments';
+            return this.selected.Name + ' -> ' + this.evolution.Evolution + ' Requeriments';
           }
         },
         selectedEvolutions: function(){
@@ -45,7 +44,7 @@ $.getJSON("data.json", function(db) {
           if(this.selected){
 
             return list.filter(function(digimon){
-              return digimon.name.toLowerCase() == this.selected.name.toLowerCase()
+              return digimon.Name.toLowerCase() == this.selected.Name.toLowerCase()
             }.bind(this))
 
           } else {
@@ -57,7 +56,7 @@ $.getJSON("data.json", function(db) {
         evolutionAttrs: function(){
 
           if(this.evolution){
-            return _.omit(this.evolution, ['image_url', 'tier', 'evolution_image', 'name', 'evolution'])
+            return _.omit(this.evolution, ['image_url', 'tier', 'evolution_image', 'Name', 'Evolution'])
           }
 
         },
