@@ -28,7 +28,7 @@
     	<hr>
 
   		<div class="panel panel-default">
-	      <div class="panel-heading">{{ selected.Name }} - Evolutions</div>
+	      <div class="panel-heading">{{ selected.name }} - Evolutions</div>
 	      <div class="panel-body">
 	        <div class="row">
 	        	<div class="col-xs-12 text-center">
@@ -36,8 +36,8 @@
         		    	v-bind:class="{ active: digimon == selected }"
         		    	v-for="digimon in selectedEvolutions" v-on:click="showInfo(digimon)">
 	            	<div class=digi-card__container>
-			     	 	<img class="digi-card__image" :src="digimon.evolution_image" :alt="digimon.Name">
-	              		<p class="digi-card__name">{{ digimon.Evolution }}</p>
+			     	 	<img class="digi-card__image" :src="digimon.image" :alt="digimon.name">
+	              		<p class="digi-card__name">{{ digimon.name }}</p>
 	            	</div>
 	            </div>
 	        	</div>
@@ -74,8 +74,8 @@
         				v-for="digimon in searchResult"
         				v-on:click="select(digimon)">
 	            		<div class="digi-card__container">
-			     	 		<img class="digi-card__image" :src="digimon.image" :alt="digimon.Name">
-	              			<p class="digi-card__name">{{ digimon.Name }}</p>
+			     	 		<img class="digi-card__image" :src="digimon.image" :alt="digimon.name">
+	              			<p class="digi-card__name">{{ digimon.name }}</p>
 	            		</div>
 	            	</div>
 	        	</div>

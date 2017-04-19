@@ -1,20 +1,15 @@
-$.getJSON("data.json", function(db) {
+$.getJSON("requeriments_final.json", function(db) {
 
-  $.getJSON('field.json', function(field){
+  $.getJSON('evolutions_final.json', function(field){
 
     // Database Parser
+    var fieldList = [];
 
-    var evolutions = _.keys(db);
-    var list = [];
-
-    _.each(evolutions, function(evolution){
-      _.each(db[evolution], function(digimon){
-        digimon['image_url'] = 'images/' + digimon.Name + '.jpg';
-        digimon['evolution_image'] = 'images/' + digimon.Evolution + '.jpg';
-        digimon['tier'] = evolution;
-        list.push(digimon);  
-      })
-    })
+    _.each(field, function(digimon){
+      digimon.image = 'images/' + digimon.name + '.jpg';
+      if(digimon.stage != 'M')
+        fieldList.push(digimon);
+    });
 
     // Vue
 
@@ -23,7 +18,7 @@ $.getJSON("data.json", function(db) {
       data: {
         evolutions: Object.keys(db),
         search: '',
-        list: field,
+        list: fieldList,
         selected: null, // Used to check evolutions
         show: false,
         evolution: null // Used for modal
@@ -31,21 +26,21 @@ $.getJSON("data.json", function(db) {
       computed: {
         searchResult: function () {
           return this.list.filter(function (digimon) {
-            return digimon.Name.toLowerCase().indexOf(this.search.toLowerCase()) >= 0
+            return digimon.name.toLowerCase().indexOf(this.search.toLowerCase()) >= 0
           }.bind(this))
         },
         modalTitle: function(){
           if(this.selected && this.evolution){
-            return this.selected.Name + ' -> ' + this.evolution.Evolution + ' Requeriments';
+            return this.selected.name + ' -> ' + this.evolution.name + ' Requeriments';
           }
         },
         selectedEvolutions: function(){
 
           if(this.selected){
 
-            return list.filter(function(digimon){
-              return digimon.Name.toLowerCase() == this.selected.Name.toLowerCase()
-            }.bind(this))
+            return _.compact(_.map(this.selected.evolutions, function(evolutionName){
+              return field[evolutionName];
+            }));
 
           } else {
             return [];
@@ -56,14 +51,14 @@ $.getJSON("data.json", function(db) {
         evolutionAttrs: function(){
 
           if(this.evolution){
-            return _.omit(this.evolution, ['image_url', 'tier', 'evolution_image', 'Name', 'Evolution'])
+            return _.omit(_.find(db, { Evolution: this.evolution.name }), 'Evolution')
           }
 
         },
 
         evolutionImage: function(){
           if(this.evolution){
-            return this.evolution.evolution_image
+            return this.evolution.image
           }
         }
 
